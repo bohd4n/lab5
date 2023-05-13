@@ -1,0 +1,168 @@
+body{
+  background: url(images/image.png);
+}
+
+table {
+  font-family: 'Arimo', sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 1140px;
+  height: 680px;
+  margin: 0 auto;
+  color: #333;
+  background-color: #fafafa;
+  text-align: center;
+}
+
+th {
+  color: #333;
+  text-align: center;
+  padding: 10px;
+  border: none;
+}
+
+td {
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+  border-right: 1px solid #333;
+}
+
+td small {
+  font-size: 12px;
+}
+tr:first-child {
+  height: 70px;
+}
+
+tr:nth-child(2) {
+  height: 85px;
+}
+tr:nth-child(4n+4),
+tr:nth-child(4n+6),
+tr:nth-child(4n+8) {
+  background-color: #e3e3e3;
+}
+thead tr:first-child th:first-child {
+  width: 310px;
+}
+
+thead tr:first-child th:not(:first-child) {
+  width: 280px;
+  text-align: center;
+}
+
+.price {
+  font-size: 60px;
+}
+
+.s_price {
+  font-size: 24px;
+  position: relative;
+  top: -20px;
+  margin-left: 5px;
+}
+
+.permnth {
+  font-size: 18px;
+  position: relative;
+  top: 0px;
+  left: -30px;
+}
+
+.second {
+  font-size: 30px;
+}
+.plan1 {
+  font-size: 24px;
+  background-color: #89c331;
+  color: #fff
+}
+
+.plan2 {
+  font-size: 24px;
+  background-color: #f04a56;
+  color: #fff
+}
+
+.plan3 {
+  font-size: 24px;
+  background-color: #20807c;
+  color: #fff
+}
+
+.button1 {
+  display: inline-block;
+  background-color: #484848;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button1:hover {
+  background-color: #756e6e;
+}
+
+.button2 {
+  font-weight: bold;
+  background-color: #89c331;
+  border: none;
+  color: #fff;
+  padding: 12px 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button2:hover {
+  background-color: #156827;
+}
+
+.button3 {
+  font-weight: bold;
+  background-color: #f04a56;
+  border: none;
+  color: #fff;
+  padding: 12px 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button3:hover {
+  background-color: #611015;
+}
+
+.button4 {
+  font-weight: bold;
+  background-color: #20807c;
+  border: none;
+  color: #fff;
+  padding: 12px 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button4:hover {
+  background-color: #155753;
+}
+
+.fa-box-archive::before {
+  content: "\f187"; }
+
+.fa-cloud-arrow-up::before {
+
+    content: "\f0ee"; }
+
+.fa-envelope::before {
+      content: "\f0e0"; }
+
+      .fa-phone:before{content:"\f095"}
+
+  .fa-box-open:before{content:"\f49e"}
+
+.fa-users::before {
+  content: "\f0c0"; }
